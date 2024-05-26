@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_container {
+    position: relative;
+}
+.header {
+    position: absolute;
+    background-image: url('../../assets/img/header_background_img_3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    top: 0px;
+    z-index: -1;
+    height: 95vh;
+    width: 98vw;
+    padding: 0 6rem;
+    margin: 1rem;
+    border-radius: 16px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 4rem 0 0 0;
+    align-items: left;
+    justify-content: center;
+}
+
+.top_hero_section {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 0 0 0 ;
+}
+
+.hero_title_Homes,
+.hero_title_That_match {
+    color: white;
+    /* margin: 3rem 0 0 3rem; */
+    line-height: 8rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10rem;
+    font-weight: 900;
+    transition: font-size 0.5s ease-in-out;
+    /* width: 80%; */
+}
+
+.hero_sub_title {
+    color: white;
+    width: 50%;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0rem 0 0 0;
+}
+
+.banner_circle_container {
+    display: flex;
+}
+
+.banner_circle_container_circle_one,
+.banner_circle_container_circle_two,
+.banner_circle_container_circle_three {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    border: 2px solid white;
+}
+
+.banner_circle_container_circle_two,
+.banner_circle_container_circle_three {
+    margin-left: -20px;
+}
+
+@media (min-width: 640px) {
+    .header_container {
+        height: 100vh;
+    }
+    .hero_title_Homes,
+    .hero_title_That_match {
+        font-size: 7rem;
+        line-height: 0.8;
+    }
+}
+
+@media (min-width: 1240px) {
+    .header_container {
+        padding: 0 14rem;
+    }
+    .hero_title_Homes,
+    .hero_title_That_match {
+        font-size: 13rem;
+        line-height: 0.8;
+    }
+    .hero_section {
+        padding: 2rem 0 0 0;
+    }
+}
+
+@media (min-width: 1880px) {
+    /* *{
+        color:black
+    } */
+    .header_container {
+        padding: 0 14rem;
+        height: 100vh;
+    }
+    .hero_title_Homes,
+    .hero_title_That_match {
+        font-size: 14rem;
+        line-height: 0.8;
+    }
+    .hero_section {
+        padding: 6rem 0 0 0;
+    }
+}
+
+/* @media (min-width: 1880px) {
+  .header {
+    padding: 0 14rem;
+    height: 96vh;
+  }
+  .hero_title_Homes,
+  .hero_title_That_match {
+    font-size: 14rem;
+    line-height: 0.8;
+  }
+} */

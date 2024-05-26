@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container{
+  /* margin: 1rem 5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('../../assets/img/header_background_img_3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 95vh;
+  padding: 0 6rem;
+  margin: 1rem;
+  border-radius: 16px; */
+}
+
+/* .nav-container{
+  max-width: 1240px;
+  display:flex;
+  justify-content: center;
+} */
+
+.navbar {
+  min-width: 1400px;
+  padding: 3rem  0rem 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app_logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.app_title {
+  font-weight: 600;
+  font-size:20px;
+}
+
+.nav_pages {
+  color: white;
+  margin-left: 4rem;
+}
+
+.nav_pages ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style-type: none;
+  
+  /* font-weight: 300; */
+}
+
+.nav_pages ul a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.register_user a{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.log_in_btn {
+  /* color: black;
+  background-color: transparent;
+  padding: 10px 24px;
+  border: 1px solid black;
+  border-radius: 32px;
+  cursor: pointer;
+  font-size: 14px; */
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.sign_in_btn {
+  color: white ;
+  background-color: black;
+  margin-left: 24px;
+  padding: 12px 24px;
+  border: 1px solid black;
+  border-radius: 32px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.log_in_btn:hover,
+.sign_in_btn:hover {
+  opacity: 70%;
+}

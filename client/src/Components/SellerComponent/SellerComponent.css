@@ -1,0 +1,93 @@
+.seller-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 2rem 12rem 4rem 12rem;
+    border-radius: 16px;
+    padding: 3rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form label {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 0 8px 0;
+}
+form button{
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding: 1.5rem 9rem;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.seller-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    /* align-items: start; */
+    gap: 20px;
+    padding: 2rem 0 1rem 0 ;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+/* 
+.image-field{
+height: 100px;
+} */
+
+.input-wrapper input,
+.input-wrapper select,
+.input-wrapper textarea {
+    min-height: 46px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: text;
+}
+
+.address input{
+  margin-top: 6px;
+}
+
+.form-part-one,
+.form-part-two{
+    padding: 2rem;
+    background-color: white;
+    height: auto;
+    width: 500px;
+}
+
+/* .form-part-one {
+    background-color: rgb(255, 161, 161);
+}
+
+.form-part-two {
+    background-color: rgb(161, 255, 194);
+} */
+
+
+.error-info{
+  color: rgb(255, 59, 59);
+}
